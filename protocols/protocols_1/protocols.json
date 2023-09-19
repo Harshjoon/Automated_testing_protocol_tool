@@ -1,0 +1,51 @@
+{
+    "meta_data" : "None",
+    "Part_1"    : {
+        "Sub_part_1": {
+            "Requirement ID: "          : "Requirement id here",
+            "Pre-requisites: "          : "Pre-requisites here",
+            "Test Objective: "          : "Test objectives here",   
+            "Test number 1": {
+                "Test case methodology" : "Test case methodology here",
+                "Expected results"      : "Write Expected results here",
+                "Actual results"        : "Write Actual results here",
+                "Results"               : "Write Results here."
+            },
+            "Test number 2": {
+                "Test case methodology" : "Test case methodology here",
+                "Expected results"      : "Write Expected results here",
+                "Actual results"        : "Write Actual results here",
+                "Results"               : "Write Results here."
+            },
+            "Test number 3": {
+                "Test case methodology" : "Test case methodology here",
+                "Expected results"      : "Write Expected results here",
+                "Actual results"        : "Write Actual results here",
+                "Results"               : "Write Results here."
+            }
+        },
+        "Sub_part_2": { 
+            "Requirement ID: "          : "Requirement id here",
+            "Pre-requisites: "          : "Pre-requisites here",
+            "Test Objective: "          : "Test objectives here",
+            "Test number 1": {
+                "Test case methodology" : "Test case methodology here",
+                "Expected results"      : "Write Expected results here",
+                "Actual results"        : "Write Actual results here",
+                "Results"               : "Write Results here."
+            },
+            "Test number 2": {
+                "Test case methodology" : "Test case methodology here",
+                "Expected results"      : "Write Expected results here",
+                "Actual results"        : "Write Actual results here",
+                "Results"               : "Write Results here."
+            },
+            "Test number 3": {
+                "Test case methodology" : "Test case methodology here",
+                "Expected results"      : "Write Expected results here",
+                "Actual results"        : "Write Actual results here",
+                "Results"               : "Write Results here."
+            }
+        }
+    }   
+}
