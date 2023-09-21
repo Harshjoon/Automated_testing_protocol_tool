@@ -8,6 +8,7 @@ TODO
  - code cleanup                                             = Pending
  - code documentation                                       = Pending
 
+ - show protocols from json data                            = Pending
  - find a way to automate class generation or a single
    class for all the protocols                              = Pending
  - Add image in protocol test case methodology              = Pending
@@ -79,6 +80,8 @@ class LoginWindow(QWidget):
         self.status.setStyleSheet('font-size: 25px; color: red;')
         layout.addWidget(self.status,                   3,0,1,3)
 
+        
+
         # connect to database
         # self.conntectToDB()
 
@@ -109,8 +112,6 @@ class LoginWindow(QWidget):
 def main():
     print("This is the main function.")
     app = QApplication(sys.argv)
-    # set app stylesheet
-    # app.setStyleSheet()
     loginWindow = LoginWindow()
     loginWindow.show()
 

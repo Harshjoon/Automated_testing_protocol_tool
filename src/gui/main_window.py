@@ -79,6 +79,15 @@ class Main_Window(QMainWindow):
         x,y = 100,y1
         self.start_protocols_button.move(x,y)
 
+        self.make_doc_button = QPushButton("Make document", self)
+        x,y = 300,y1
+        self.make_doc_button.move(x,y)
+        #self.make_doc_button.adjustSize()
+
+        self.make_pdf_button = QPushButton("Make pdf", self)
+        x,y = 500,y1
+        self.make_pdf_button.move(x,y)
+
 
         # connect signals and slots
         self.start_protocols_button.clicked.connect(self.start_protocols)
@@ -101,3 +110,20 @@ class Main_Window(QMainWindow):
         return None
 
 
+
+def main():
+    print("This is the main function.")
+    app = QApplication(sys.argv)
+    # set app stylesheet
+    # app.setStyleSheet()
+    meta_data = {}
+    loginWindow = Main_Window(meta_data)
+    loginWindow.show()
+
+    try:
+        sys.exit(app.exec())
+    except SystemExit:
+        print('Closing Window ...')
+
+if __name__ == '__main__':
+    main()
